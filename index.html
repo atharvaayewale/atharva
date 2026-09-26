@@ -1,0 +1,1611 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)https://ayekarinfotech.github.io/AtharvaYewalecv/ -->
+<html lang="en" style="--mx: 844px; --my: 296px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=1280">
+<title>Atharva Jalindar Yewale — Founder · Web Developer · Cybersecurity Specialist</title>
+<meta name="description" content="Digital CV of Atharva Jalindar Yewale — Founder &amp; CEO of Ayekar Infotech, builder of GoVerifAI and KaakaPOS, ethical hacker and full-stack developer based in thane west, India.">
+<link rel="icon" type="image/png" href="./Atharva Jalindar Yewalee — Founder · Web Developer · Cybersecurity Specialist_files/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./Atharva Jalindar Yewalee — Founder · Web Developer · Cybersecurity Specialist_files/css2" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0B0F17;
+    --panel:#0F1524;
+    --panel-2:#131B2E;
+    --line:#232B3D;
+    --teal:#2FD1C4;
+    --blue:#3E7BFA;
+    --amber:#C9A24B;
+    --text:#EDEFF5;
+    --muted:#8892A6;
+    --muted-2:#5B6478;
+    --radius:10px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.01ms !important; animation-iteration-count:1 !important; transition-duration:0.01ms !important;}
+  }
+  body{
+    background:var(--ink);
+    color:var(--text);
+    font-family:'IBM Plex Sans', sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+    position:relative;
+  }
+  a{color:inherit;}
+  .mono{font-family:'IBM Plex Mono', monospace;}
+  .display{font-family:'Space Grotesk', sans-serif;}
+  ::selection{background:var(--teal); color:var(--ink);}
+
+  /* ---------- Ambient background: galaxy scene (site-wide) ---------- */
+  #netbg{position:fixed; inset:0; z-index:0; pointer-events:none; opacity:0.32;}
+  #galaxyStars{position:fixed; inset:0; z-index:0; pointer-events:none;}
+  #spotlight{
+    position:fixed; inset:0; z-index:1; pointer-events:none;
+    background:radial-gradient(560px circle at var(--mx,50%) var(--my,20%), rgba(62,123,250,0.10), transparent 60%);
+    transition:background .1s linear;
+  }
+  .glowfield{
+    position:fixed; inset:0; z-index:0; pointer-events:none;
+    background-image:
+      radial-gradient(ellipse 900px 500px at 12% -10%, rgba(62,123,250,0.10), transparent),
+      radial-gradient(ellipse 700px 500px at 105% 8%, rgba(47,209,196,0.07), transparent),
+      radial-gradient(ellipse 640px 480px at 100% 70%, rgba(148,90,220,0.05), transparent),
+      radial-gradient(ellipse 620px 460px at -6% 62%, rgba(201,162,75,0.045), transparent),
+      radial-gradient(ellipse 800px 560px at 40% 100%, rgba(62,123,250,0.05), transparent);
+  }
+  .milky-band{
+    position:fixed; z-index:0; pointer-events:none; opacity:0.14;
+    top:-20%; left:-30%; width:180vw; height:80vh;
+    background:linear-gradient(115deg, transparent 30%, rgba(120,140,220,0.06) 45%, rgba(190,170,230,0.08) 50%, rgba(120,140,220,0.06) 55%, transparent 70%);
+    filter:blur(6px);
+    transform:rotate(-12deg);
+  }
+  .deco-planet{position:fixed; border-radius:50%; z-index:0; pointer-events:none; opacity:0.28;}
+  .dp-1{
+    width:70px; height:70px; top:10%; right:6%;
+    background:radial-gradient(circle at 32% 28%, #ffd9a0, #c9683a 45%, #5c2712 100%);
+    box-shadow:0 0 24px rgba(201,104,58,0.16);
+    animation:dpfloat 9s ease-in-out infinite;
+  }
+  .dp-2{
+    width:46px; height:46px; bottom:16%; left:5%;
+    background:radial-gradient(circle at 32% 28%, #d9c6ff, #7a5ad1 45%, #3a2570 100%);
+    box-shadow:0 0 18px rgba(122,90,209,0.15);
+    animation:dpfloat 12s ease-in-out infinite reverse;
+  }
+  .dp-3{
+    width:34px; height:34px; top:52%; right:12%;
+    background:radial-gradient(circle at 32% 28%, #b9f5e8, #2fb8a4 45%, #114d43 100%);
+    box-shadow:0 0 16px rgba(47,184,164,0.14);
+    animation:dpfloat 10s ease-in-out infinite;
+  }
+  @keyframes dpfloat{ 0%,100%{transform:translateY(0);} 50%{transform:translateY(-16px);} }
+  @media (max-width:640px){ .deco-planet{opacity:0.18;} .dp-1{width:44px; height:44px;} .dp-2{width:30px; height:30px;} .dp-3{display:none;} }
+
+  main, header, nav, footer{position:relative; z-index:2;}
+
+  /* ---------- Layout shells ---------- */
+  .wrap{max-width:1040px; margin:0 auto; padding:0 24px;}
+  section{padding:96px 0;}
+  @media (max-width:640px){ section{padding:64px 0;} .wrap{padding:0 20px;} }
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--teal);
+    display:flex; align-items:center; gap:10px;
+    margin-bottom:14px;
+  }
+  .eyebrow::before{content:"//"; color:var(--muted-2);}
+  h2.title{
+    font-family:'Archivo', sans-serif;
+    font-weight:800;
+    font-size:clamp(28px,3.6vw,40px);
+    letter-spacing:-0.02em;
+    margin-bottom:40px;
+  }
+
+  /* ---------- Nav ---------- */
+  nav{
+    position:sticky; top:0; z-index:50;
+    backdrop-filter:blur(10px);
+    background:rgba(11,15,23,0.78);
+    border-bottom:1px solid var(--line);
+  }
+  nav .wrap{display:flex; align-items:center; justify-content:space-between; height:64px;}
+  .brand{display:flex; align-items:center; gap:11px; min-width:0;}
+  .brand .mark{
+    width:34px; height:34px; border-radius:9px; display:block; flex:none;
+    box-shadow:0 2px 10px -2px rgba(0,0,0,0.6), inset 0 0 0 1px rgba(255,255,255,0.06);
+  }
+  .brand .wordmark{display:flex; flex-direction:column; line-height:1.15;}
+  .brand .wordmark b{
+    font-family:'Space Grotesk', sans-serif; font-weight:700; font-size:14px;
+    letter-spacing:0.02em; color:var(--text);
+  }
+  .brand .wordmark i{
+    font-style:normal; font-family:'IBM Plex Mono', monospace; font-size:9.5px;
+    letter-spacing:0.16em; text-transform:uppercase; color:var(--muted-2);
+  }
+  @media (max-width:400px){ .brand .wordmark{display:none;} }
+  .navlinks{display:flex; gap:26px; font-family:'IBM Plex Mono', monospace; font-size:13px;}
+  .navlinks a{color:var(--muted); text-decoration:none; transition:color .2s;}
+  .navlinks a:hover, .navlinks a:focus-visible{color:var(--teal);}
+  .navlinks a:focus-visible{outline:1px solid var(--teal); outline-offset:4px;}
+  @media (max-width:680px){ .navlinks{display:none;} }
+
+  .cmdk-trigger{
+    font-family:'IBM Plex Mono', monospace; font-size:11.5px; color:var(--muted);
+    background:transparent; border:1px solid var(--line); border-radius:7px;
+    padding:6px 10px; cursor:pointer; transition:border-color .2s, color .2s;
+  }
+  .cmdk-trigger:hover, .cmdk-trigger:focus-visible{ border-color:var(--teal); color:var(--teal); }
+
+  .cmdk-overlay{
+    position:fixed; inset:0; z-index:100; display:flex; align-items:flex-start; justify-content:center;
+    padding-top:14vh; background:rgba(5,7,12,0.7); backdrop-filter:blur(5px);
+    opacity:0; transition:opacity .18s ease;
+  }
+  .cmdk-overlay[hidden]{ display:none; }
+  .cmdk-overlay.show{ opacity:1; }
+  .cmdk-box{
+    width:min(560px, 90vw); background:var(--panel); border:1px solid rgba(47,209,196,0.3); border-radius:12px;
+    box-shadow:0 50px 100px -30px rgba(0,0,0,0.8), 0 0 0 1px rgba(47,209,196,0.06), 0 0 40px rgba(47,209,196,0.08);
+    overflow:hidden; transform:translateY(-10px) scale(0.98); transition:transform .18s ease;
+  }
+  .cmdk-overlay.show .cmdk-box{ transform:translateY(0) scale(1); }
+  .cmdk-input-row{display:flex; align-items:center; gap:10px; padding:14px 16px; border-bottom:1px solid var(--line);}
+  .cmdk-prompt{color:var(--teal); font-size:14px;}
+  .cmdk-input{flex:1; background:transparent; border:none; outline:none; color:var(--text); font-size:14px; min-width:0;}
+  .cmdk-input::placeholder{color:var(--muted-2);}
+  .cmdk-esc{font-size:10.5px; color:var(--muted-2); border:1px solid var(--line); border-radius:5px; padding:2px 6px; flex:none;}
+  .cmdk-list{max-height:320px; overflow-y:auto; padding:8px;}
+  .cmdk-item{
+    position:relative; display:flex; align-items:center; gap:11px;
+    padding:11px 12px 11px 16px; border-radius:8px; cursor:pointer; color:var(--text); font-size:14px;
+    border-left:2px solid transparent;
+  }
+  .cmdk-item .glyph{
+    font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--blue); flex:none;
+    width:20px; height:20px; border-radius:5px; background:rgba(62,123,250,0.12);
+    display:flex; align-items:center; justify-content:center;
+  }
+  .cmdk-item .txt{flex:1; display:flex; flex-direction:column; gap:1px;}
+  .cmdk-item .desc{font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--muted-2);}
+  .cmdk-item.active{background:rgba(47,209,196,0.10); color:var(--teal); border-left-color:var(--teal);}
+  .cmdk-item.active .glyph{background:rgba(47,209,196,0.16); color:var(--teal);}
+  .cmdk-item.active .desc{color:var(--teal); opacity:0.8;}
+  .cmdk-empty{padding:16px 12px; color:var(--muted-2); font-family:'IBM Plex Mono', monospace; font-size:13px;}
+
+  /* ---------- Hero ---------- */
+  header.hero{padding:64px 0 30px;}
+  @media (max-width:640px){ header.hero{padding:36px 0 20px;} }
+  .hero-grid{display:grid; grid-template-columns:1.25fr 0.9fr; gap:48px; align-items:start;}
+  @media (max-width:860px){ .hero-grid{grid-template-columns:1fr; gap:56px;} }
+
+  .term{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    overflow:hidden;
+    box-shadow:0 40px 90px -40px rgba(0,0,0,0.7);
+  }
+  .term-bar{
+    display:flex; align-items:center; gap:8px;
+    padding:11px 16px;
+    border-bottom:1px solid var(--line);
+    background:var(--panel-2);
+  }
+  .dot{width:10px; height:10px; border-radius:50%;}
+  .dot.r{background:#F1595C;} .dot.y{background:#E8B84B;} .dot.g{background:#3BC77C;}
+  .term-title{margin-left:8px; font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--muted-2);}
+  .term-body{padding:26px 24px 30px; font-family:'IBM Plex Mono', monospace; font-size:14.5px; min-height:190px;}
+  .term-log{margin-top:16px; max-height:220px; overflow-y:auto; scrollbar-width:thin;}
+  .term-log:empty{margin-top:0;}
+  .term-log .tl-line{font-size:13.5px; line-height:1.7; margin-bottom:3px; white-space:pre-wrap; word-break:break-word;}
+  .term-log .tl-cmd{color:var(--text);}
+  .term-log .tl-cmd .prompt{color:var(--teal);}
+  .term-log .tl-out{color:var(--muted);}
+  .term-log .tl-out a{color:var(--teal); text-decoration:underline;}
+  .term-log .tl-out .k{color:var(--blue); font-weight:600;}
+  .term-log .tl-out .v{color:var(--text);}
+  .term-log .tl-err{color:#F1595C;}
+  .term-log .tl-sys{color:var(--amber); opacity:0; animation:sysfade .5s ease forwards;}
+  @keyframes sysfade{ from{opacity:0; transform:translateY(-2px);} to{opacity:1; transform:translateY(0);} }
+
+  .term-prompt-row{
+    position:relative; display:flex; align-items:center; gap:6px;
+    margin-top:14px; margin-bottom:0; padding:9px 12px;
+    background:rgba(47,209,196,0.05); border:1px solid rgba(47,209,196,0.25); border-radius:7px;
+    overflow:hidden;
+  }
+  .term-prompt-row::before{
+    content:""; position:absolute; left:0; top:0; height:100%; width:40%;
+    background:linear-gradient(90deg, transparent, rgba(47,209,196,0.16), transparent);
+    animation:scanline 3.2s ease-in-out infinite;
+  }
+  @keyframes scanline{ 0%{transform:translateX(-120%);} 100%{transform:translateX(340%);} }
+  .term-static{color:var(--teal); position:relative; z-index:1;}
+  .term-input{
+    flex:1; background:transparent; border:none; outline:none; position:relative; z-index:1;
+    font-family:'IBM Plex Mono', monospace; font-size:13.5px; color:var(--text);
+    caret-color:var(--teal); min-width:0;
+  }
+  .term-input::placeholder{color:var(--muted-2);}
+  .term-line{color:var(--muted); margin-bottom:6px;}
+  .term-line .prompt{color:var(--teal);}
+  .term-out{color:var(--text); margin:0 0 14px 0; white-space:pre-wrap;}
+  #typed-name{font-size:clamp(28px,4vw,42px); font-weight:800; font-family:'Archivo', sans-serif; letter-spacing:-0.02em; display:block; margin:8px 0 8px; background:linear-gradient(100deg, var(--text) 40%, var(--teal) 100%); -webkit-background-clip:text; background-clip:text; color:transparent; -webkit-text-fill-color:transparent;}
+  .cursor{display:inline-block; width:9px; height:1em; background:var(--teal); vertical-align:text-bottom; animation:blink 1s steps(1) infinite;}
+  @keyframes blink{50%{opacity:0;}}
+  .hero-tags{display:flex; flex-wrap:wrap; gap:8px; margin-top:16px;}
+  .tag{
+    font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--muted);
+    border:1px solid var(--line); border-radius:20px; padding:5px 12px;
+  }
+  .hero-cta{display:flex; flex-wrap:wrap; gap:12px; margin-top:26px; padding:0 24px 26px;}
+  .btn{
+    font-family:'IBM Plex Mono', monospace; font-size:13px; font-weight:500;
+    padding:11px 20px; border-radius:8px; text-decoration:none; letter-spacing:0.02em;
+    transition:transform .15s ease, box-shadow .15s ease, background .15s ease;
+    display:inline-flex; align-items:center; gap:8px;
+  }
+  .btn-primary{background:linear-gradient(135deg, var(--teal), var(--blue)); color:#08131A; font-weight:600;}
+  .btn-primary:hover{transform:translateY(-2px); box-shadow:0 12px 30px -10px rgba(47,209,196,0.5);}
+  .btn-ghost{border:1px solid var(--line); color:var(--text);}
+  .btn-ghost:hover{border-color:var(--teal); color:var(--teal); transform:translateY(-2px);}
+
+  /* ---------- 3D portrait card ---------- */
+  .portrait-stage{perspective:1400px; display:flex; justify-content:center; padding-top:6px;}
+  @media (max-width:860px){ .portrait-stage{padding-top:0;} }
+  .portrait-card{
+    position:relative; width:min(360px, 82vw); aspect-ratio:1/1.12;
+    border-radius:20px; transform-style:preserve-3d;
+    transition:transform .12s ease-out;
+    will-change:transform;
+  }
+  .portrait-card .ring{
+    position:absolute; inset:-2px; border-radius:22px; z-index:0;
+    background:conic-gradient(from 0deg, var(--teal), var(--blue), var(--amber), var(--teal));
+    filter:blur(1px);
+    animation:spin 8s linear infinite;
+  }
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .portrait-card .inner{
+    position:absolute; inset:3px; border-radius:18px; overflow:hidden; z-index:1;
+    background:var(--panel);
+    transform:translateZ(20px);
+  }
+  .portrait-card img{
+    width:100%; height:100%; object-fit:cover; display:block;
+    filter:saturate(1.05) contrast(1.03);
+  }
+  .portrait-card .scan{
+    position:absolute; inset:0; z-index:2; pointer-events:none;
+    background:linear-gradient(to bottom, transparent 0%, rgba(47,209,196,0.10) 50%, transparent 100%);
+    background-size:100% 220%;
+    animation:scan 3.4s ease-in-out infinite;
+    mix-blend-mode:screen;
+  }
+  @keyframes scan{0%{background-position:0 -60%;}100%{background-position:0 160%;}}
+  .float-badge{
+    position:absolute; z-index:3;
+    background:rgba(15,21,36,0.9); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:8px 12px; font-family:'IBM Plex Mono', monospace; font-size:11.5px;
+    display:flex; align-items:center; gap:7px; white-space:nowrap;
+    transform:translateZ(60px);
+    animation:floaty 4.5s ease-in-out infinite;
+    box-shadow:0 14px 30px -10px rgba(0,0,0,0.5);
+  }
+  .dotpulse{width:7px; height:7px; border-radius:50%; background:var(--teal); box-shadow:0 0 0 0 rgba(47,209,196,0.6); animation:pulse 2s infinite; display:inline-block;}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(47,209,196,0.5);} 70%{box-shadow:0 0 0 8px rgba(47,209,196,0);} 100%{box-shadow:0 0 0 0 rgba(47,209,196,0);}}
+  @keyframes floaty{0%,100%{transform:translateZ(60px) translateY(0);} 50%{transform:translateZ(60px) translateY(-8px);}}
+  .badge-1{top:-6%; left:-14%; animation-delay:.2s;}
+  .badge-2{bottom:10%; right:-16%; animation-delay:1.1s;}
+  .badge-3{bottom:-6%; left:2%; animation-delay:.6s;}
+  @media (max-width:500px){ .float-badge{display:none;} }
+
+  /* ---------- Reveal on scroll ---------- */
+  .reveal{opacity:0; transform:translateY(18px); transition:opacity .6s ease, transform .6s ease;}
+  .reveal.in{opacity:1; transform:translateY(0);}
+
+  /* ---------- Impact counters ---------- */
+  .impact{padding:52px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line);}
+  @media (max-width:640px){ .impact{padding:36px 0;} }
+  .impact-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:20px;}
+  @media (max-width:700px){ .impact-grid{grid-template-columns:repeat(2,1fr);} }
+  .impact-item{text-align:center; padding:10px;}
+  .impact-num{
+    font-family:'Space Grotesk', sans-serif; font-weight:700; font-size:clamp(28px,4vw,40px);
+    background:linear-gradient(135deg, var(--teal), var(--blue));
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+  }
+  .impact-label{font-family:'IBM Plex Mono', monospace; font-size:11.5px; color:var(--muted-2); text-transform:uppercase; letter-spacing:.07em; margin-top:6px;}
+
+  /* ---------- About ---------- */
+  .about-grid{display:grid; grid-template-columns:1.4fr 1fr; gap:36px; align-items:start;}
+  @media (max-width:760px){ .about-grid{grid-template-columns:1fr;} }
+  .about-grid p{color:var(--muted); font-size:15.5px; margin-bottom:14px;}
+  .about-grid p strong{color:var(--text); font-weight:600;}
+  .stat-card{
+    background:var(--panel); border:1px solid var(--line); border-radius:var(--radius);
+    padding:18px 20px; margin-bottom:12px;
+  }
+  .stat-card .k{font-family:'IBM Plex Mono', monospace; font-size:11.5px; color:var(--muted-2); text-transform:uppercase; letter-spacing:.08em;}
+  .stat-card .v{font-family:'Space Grotesk', sans-serif; font-size:20px; font-weight:600; margin-top:4px;}
+
+  /* ---------- Ventures (3D tilt) ---------- */
+  .venture-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:18px;}
+  @media (max-width:860px){ .venture-grid{grid-template-columns:1fr;} }
+  .tilt{perspective:900px;}
+  .vcard{
+    background:var(--panel); border:1px solid var(--line); border-radius:var(--radius);
+    padding:22px; transition:border-color .2s, transform .08s ease-out, box-shadow .2s;
+    transform-style:preserve-3d; will-change:transform;
+  }
+  .vcard:hover{border-color:var(--teal); box-shadow:0 30px 60px -30px rgba(47,209,196,0.35);}
+  .vcard .status{
+    font-family:'IBM Plex Mono', monospace; font-size:10.5px; letter-spacing:.08em; text-transform:uppercase;
+    padding:3px 9px; border-radius:20px; display:inline-block; margin-bottom:14px;
+    transform:translateZ(24px);
+  }
+  .status.live{background:rgba(59,199,124,0.14); color:#3BC77C;}
+  .status.build{background:rgba(232,184,75,0.14); color:var(--amber);}
+  .vcard h3{font-family:'Archivo', sans-serif; font-weight:700; font-size:18px; margin-bottom:8px; transform:translateZ(18px);}
+  .vcard p{color:var(--muted); font-size:14px; margin-bottom:14px; transform:translateZ(10px);}
+  .vcard .stack{display:flex; flex-wrap:wrap; gap:6px; transform:translateZ(14px);}
+  .chip{font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--muted); border:1px solid var(--line); padding:3px 8px; border-radius:5px;}
+
+  /* ---------- Arsenal / skills ---------- */
+  .arsenal{display:grid; grid-template-columns:repeat(3,1fr); gap:22px;}
+  @media (max-width:760px){ .arsenal{grid-template-columns:1fr;} }
+  .arsenal-col .h{font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--blue); text-transform:uppercase; letter-spacing:.08em; margin-bottom:14px; padding-bottom:10px; border-bottom:1px solid var(--line);}
+  .arsenal-col ul{list-style:none;}
+  .arsenal-col li{
+    font-size:14.5px; color:var(--text); padding:9px 0; display:flex; align-items:center; gap:10px;
+  }
+  .arsenal-col li::before{content:"›"; color:var(--teal); font-family:'IBM Plex Mono', monospace;}
+  .meter{flex:1; height:5px; border-radius:4px; background:var(--line); overflow:hidden; margin-left:auto; max-width:90px;}
+  .meter span{display:block; height:100%; background:linear-gradient(90deg, var(--teal), var(--blue)); width:0%; transition:width 1.1s cubic-bezier(.2,.8,.2,1);}
+  .arsenal-col.in .meter span{width:var(--w);}
+
+  /* ---------- Commit log (experience) ---------- */
+  .log{position:relative; padding-left:26px;}
+  .log::before{content:""; position:absolute; left:6px; top:6px; bottom:6px; width:1px; background:var(--line);}
+  .commit{position:relative; padding-bottom:34px;}
+  .commit:last-child{padding-bottom:0;}
+  .commit::before{
+    content:""; position:absolute; left:-26px; top:5px; width:11px; height:11px; border-radius:50%;
+    background:var(--ink); border:2px solid var(--teal);
+  }
+  .commit.current::before{background:var(--teal); box-shadow:0 0 0 4px rgba(47,209,196,0.18);}
+  .commit-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:10px; margin-bottom:4px;}
+  .commit-hash{font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--amber);}
+
+  /* ---------- Space Experience (full scene) ---------- */
+  .space-scene{
+    position:relative; border-radius:20px; overflow:hidden;
+    min-height:460px; border:1px solid var(--line); margin-bottom:36px;
+    background:linear-gradient(180deg,#05070C 0%, #0A0E18 55%, #0D1424 100%);
+    box-shadow:0 50px 100px -50px rgba(0,0,0,0.8);
+  }
+  @media (max-width:640px){ .space-scene{min-height:400px;} }
+
+  #spaceStars{position:absolute; inset:0; width:100%; height:100%; z-index:0; display:block;}
+
+  .sun-glow{
+    position:absolute; top:8%; left:6%; width:360px; height:360px;
+    background:radial-gradient(circle, rgba(201,162,75,0.28) 0%, rgba(201,162,75,0.08) 40%, transparent 70%);
+    border-radius:50%; z-index:0; pointer-events:none; filter:blur(2px);
+  }
+
+  .nebula{position:absolute; border-radius:50%; filter:blur(30px); pointer-events:none; z-index:0; opacity:0.55;}
+  .nebula-a{width:260px; height:160px; top:2%; left:20%; background:radial-gradient(ellipse, rgba(62,123,250,0.30), transparent 70%); animation:drift1 17s ease-in-out infinite;}
+  .nebula-b{width:220px; height:150px; bottom:0%; right:8%; background:radial-gradient(ellipse, rgba(47,209,196,0.28), transparent 70%); animation:drift2 20s ease-in-out infinite;}
+  .nebula-c{width:200px; height:140px; bottom:20%; left:-6%; background:radial-gradient(ellipse, rgba(148,90,220,0.24), transparent 70%); animation:drift1 24s ease-in-out infinite reverse;}
+  @keyframes drift1{ 0%,100%{transform:translate(0,0);} 50%{transform:translate(22px,14px);} }
+  @keyframes drift2{ 0%,100%{transform:translate(0,0);} 50%{transform:translate(-18px,-12px);} }
+
+  .planet{position:absolute; border-radius:50%; z-index:1;}
+  .earth-body{
+    width:210px; height:210px; right:-60px; bottom:-60px;
+    background:radial-gradient(circle at 34% 30%, #8be9d3 0%, #2f9dd1 34%, #1a3c78 66%, #0c1c40 100%);
+    box-shadow:0 0 90px rgba(47,157,209,0.4), inset -24px -24px 60px rgba(0,0,0,0.55);
+  }
+  .earth-body::after{
+    content:""; position:absolute; inset:0; border-radius:50%;
+    background:radial-gradient(circle at 30% 24%, rgba(255,255,255,0.28), transparent 42%);
+  }
+  .moon-body{
+    width:44px; height:44px; top:14%; left:9%;
+    background:radial-gradient(circle at 34% 30%, #fbfbfb 0%, #c7cad2 55%, #8b8f99 100%);
+    box-shadow:0 0 26px rgba(255,255,255,0.28);
+    animation:moonfloat 7s ease-in-out infinite;
+  }
+  @keyframes moonfloat{ 0%,100%{transform:translateY(0);} 50%{transform:translateY(-16px);} }
+
+  .shooting-star{position:absolute; width:2px; height:2px; background:#fff; border-radius:50%; opacity:0; z-index:1;}
+  .shooting-star::before{content:""; position:absolute; top:1px; right:0; width:80px; height:1px; background:linear-gradient(90deg, transparent, #fff);}
+  .ss-1{top:14%; left:78%; animation:shoot 7s linear infinite; animation-delay:1s;}
+  .ss-2{top:36%; left:88%; animation:shoot 9s linear infinite; animation-delay:4.2s;}
+  @keyframes shoot{
+    0%{opacity:0; transform:translate(0,0) rotate(0deg);}
+    3%{opacity:1;}
+    18%{opacity:0; transform:translate(-260px,150px) rotate(0deg);}
+    100%{opacity:0;}
+  }
+
+  .astro-wrap{
+    position:absolute; z-index:2; left:50%; top:52%; width:168px; height:168px; margin:-96px 0 0 -84px;
+    perspective:900px; will-change:transform;
+  }
+  @media (max-width:640px){ .astro-wrap{width:130px; height:130px; margin:-76px 0 0 -65px;} }
+  .astro-wrap .astro-inner{
+    width:100%; height:100%;
+    animation:tumble 8s ease-in-out infinite;
+    filter:drop-shadow(0 24px 50px rgba(0,0,0,0.55));
+  }
+  @keyframes tumble{
+    0%,100%{transform:rotate(-5deg) translateY(0);}
+    50%{transform:rotate(5deg) translateY(-20px);}
+  }
+
+  .space-copy{position:relative; z-index:3; padding:36px; max-width:420px;}
+  .space-copy .eyebrow{margin-bottom:12px;}
+  .space-copy h3{font-family:'Archivo', sans-serif; font-weight:800; font-size:clamp(22px,3vw,30px); letter-spacing:-0.01em; margin-bottom:10px;}
+  .space-copy p{font-size:14.5px; color:var(--muted); line-height:1.65;}
+  @media (max-width:640px){ .space-copy{padding:26px 20px;} }
+
+  .sys-stats{display:grid; grid-template-columns:1fr 1fr; gap:12px; width:100%;}
+  @media (max-width:640px){ .sys-stats{grid-template-columns:1fr;} }
+  .sys-item{
+    display:flex; align-items:flex-start; gap:12px; padding:14px 17px;
+    background:var(--panel); border:1px solid var(--line); border-radius:10px;
+    transition:border-color .2s, transform .2s;
+  }
+  .sys-item:hover{border-color:var(--teal); transform:translateY(-3px);}
+  .sys-item .dotpulse{margin-top:6px; flex:none;}
+  .sys-k{font-family:'IBM Plex Mono', monospace; font-size:10.5px; color:var(--muted-2); text-transform:uppercase; letter-spacing:.08em;}
+  .sys-v{font-family:'Archivo', sans-serif; font-size:14.5px; color:var(--text); margin-top:3px; font-weight:700;}
+
+  /* ---------- Journey (3D timeline) ---------- */
+  .journey-stage{perspective:1600px;}
+  .jline{position:relative; padding:10px 0; counter-reset:jrn;}
+  .jline::before{
+    content:""; position:absolute; left:50%; top:0; bottom:0; width:2px;
+    background:linear-gradient(180deg, transparent, var(--teal) 15%, var(--blue) 50%, var(--teal) 85%, transparent);
+    background-size:100% 240%;
+    animation:jflow 4.5s linear infinite;
+    transform:translateX(-50%);
+    opacity:0.55;
+  }
+  @keyframes jflow{ 0%{background-position:0 240%;} 100%{background-position:0 -240%;} }
+  @media (max-width:760px){ .jline::before{left:14px;} }
+
+  .jitem{
+    position:relative; width:50%; padding:0 44px 64px; box-sizing:border-box;
+    counter-increment:jrn;
+    opacity:0; transition:opacity .7s ease, transform .7s cubic-bezier(.2,.7,.2,1);
+    will-change:transform;
+  }
+  .jitem:nth-child(odd){ left:0; transform:translateZ(-120px) rotateY(22deg) translateX(-30px); }
+  .jitem:nth-child(even){ left:50%; transform:translateZ(-120px) rotateY(-22deg) translateX(30px); }
+  .jitem.in{ opacity:1; transform:translateZ(0) rotateY(0) translateX(0); }
+  @media (max-width:760px){
+    .jitem, .jitem:nth-child(odd), .jitem:nth-child(even){ width:100%; left:0; padding:0 0 44px 44px; transform:translateZ(-80px) translateX(24px); }
+    .jitem.in{ transform:translateZ(0) translateX(0); }
+  }
+
+  .jnode{
+    position:absolute; top:6px; width:14px; height:14px;
+    background:var(--ink); border:2px solid var(--blue); z-index:2;
+    left:calc(50% - 7px);
+    transform:rotate(45deg);
+    box-shadow:0 0 0 5px var(--ink);
+  }
+  .jitem.milestone .jnode{ border-color:var(--teal); background:var(--teal); box-shadow:0 0 0 5px var(--ink), 0 0 16px rgba(47,209,196,0.55); }
+  @media (max-width:760px){ .jnode{ left:8px; } }
+
+  .jcard{
+    position:relative; background:var(--panel); border:1px solid var(--line); border-radius:var(--radius);
+    padding:20px 20px 18px; transform-style:preserve-3d; overflow:hidden;
+    transition:border-color .2s, box-shadow .2s;
+  }
+  .jcard::before{
+    content:"JRN·" counter(jrn, decimal-leading-zero);
+    position:absolute; top:12px; right:14px;
+    font-family:'IBM Plex Mono', monospace; font-size:9.5px; color:var(--muted-2);
+    letter-spacing:.08em; opacity:0.7;
+  }
+  .jcard::after{
+    content:""; position:absolute; top:0; left:0; right:0; height:2px;
+    background:linear-gradient(90deg, var(--teal), var(--blue));
+    opacity:0.75;
+  }
+  .jitem:hover .jcard{ border-color:var(--teal); box-shadow:0 24px 50px -28px rgba(47,209,196,0.3); }
+  .jyear-row{display:flex; align-items:center; gap:8px; margin-bottom:8px;}
+  .jicon{
+    display:inline-flex; align-items:center; justify-content:center;
+    width:22px; height:22px; border-radius:6px; flex:none;
+    background:rgba(62,123,250,0.12); color:var(--blue);
+  }
+  .jitem.milestone .jicon{ background:rgba(47,209,196,0.14); color:var(--teal); }
+  .jicon svg{width:13px; height:13px;}
+  .jyear{font-family:'IBM Plex Mono', monospace; font-size:11.5px; color:var(--blue); letter-spacing:.08em;}
+  .jitem.milestone .jyear{ color:var(--teal); }
+  .jcard h3{font-family:'Archivo', sans-serif; font-size:16px; font-weight:700; margin-bottom:5px;}
+  .jcard p{font-size:13.5px; color:var(--muted);}
+  .commit-branch{font-family:'IBM Plex Mono', monospace; font-size:11.5px; color:var(--muted-2); border:1px solid var(--line); border-radius:12px; padding:2px 9px;}
+  .commit h3{font-family:'Archivo', sans-serif; font-size:18px; font-weight:700;}
+  .commit .role-meta{font-family:'IBM Plex Mono', monospace; font-size:12.5px; color:var(--muted-2); margin-bottom:10px;}
+  .commit ul{list-style:none; color:var(--muted); font-size:14.5px;}
+  .commit li{padding-left:16px; position:relative; margin-bottom:5px;}
+  .commit li::before{content:"–"; position:absolute; left:0; color:var(--muted-2);}
+
+  /* ---------- Education ---------- */
+  .edu-grid{display:grid; grid-template-columns:1fr 1fr; gap:34px;}
+  @media (max-width:760px){ .edu-grid{grid-template-columns:1fr;} }
+  .edu-grid h3{font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--blue); text-transform:uppercase; letter-spacing:.08em; margin-bottom:16px;}
+  .row{display:flex; justify-content:space-between; gap:10px; padding:11px 0; border-bottom:1px solid var(--line); font-size:14.5px;}
+  .row:last-child{border-bottom:none;}
+  .row .name{color:var(--text);}
+  .row .meta{color:var(--muted-2); font-family:'IBM Plex Mono', monospace; font-size:12.5px; text-align:right; white-space:nowrap;}
+  .langs{margin-top:26px; display:flex; gap:22px; flex-wrap:wrap;}
+  .langs .lg .name{font-size:14.5px;} .langs .lg .meta{font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--muted-2);}
+
+  /* ---------- Connect ---------- */
+  .connect-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:14px;}
+  @media (max-width:760px){ .connect-grid{grid-template-columns:repeat(2,1fr);} }
+  .cbox{
+    background:var(--panel); border:1px solid var(--line); border-radius:var(--radius);
+    padding:18px; text-decoration:none; display:block; transition:border-color .2s, transform .2s;
+  }
+  .cbox:hover{border-color:var(--teal); transform:translateY(-3px);}
+  .cbox .k{font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--muted-2); text-transform:uppercase; letter-spacing:.07em; margin-bottom:6px;}
+  .cbox .v{font-size:14px; color:var(--text); word-break:break-word;}
+
+  footer{border-top:1px solid var(--line); padding:56px 0 40px; text-align:center;}
+  footer .foot-logo{height:52px; width:auto; opacity:0.95; margin-bottom:26px; filter:drop-shadow(0 8px 24px rgba(47,209,196,0.15));}
+  footer p{font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--muted-2); max-width:520px; margin:0 auto;}
+  footer .flag{color:var(--teal);}
+  footer .copyline{margin-top:10px; font-size:11px; color:var(--muted-2); opacity:0.75;}
+</style>
+</head>
+<body>
+
+<div class="glowfield"></div>
+<div class="milky-band"></div>
+<div class="deco-planet dp-1"></div>
+<div class="deco-planet dp-2"></div>
+<div class="deco-planet dp-3"></div>
+<canvas id="netbg" width="856" height="570"></canvas>
+<canvas id="galaxyStars" width="856" height="570"></canvas>
+<div id="spotlight"></div>
+
+<nav>
+  <div class="wrap">
+    <div class="brand">
+      <img class="mark" src="icon.png" width="34" height="34" alt="Ayekar Infotech mark">
+      <span class="wordmark"><b>AYEKAR</b><i>Infotech</i></span>
+    </div>    <div class="navlinks">
+      <a href="https://ayekarinfotech.github.io/AtharvaYewalecv/#about">whoami</a>
+      <a href="https://ayekarinfotech.github.io/AtharvaYewalecv/#ventures">ventures</a>
+      <a href="https://ayekarinfotech.github.io/AtharvaYewalecv/#arsenal">arsenal</a>
+      <a href="https://ayekarinfotech.github.io/AtharvaYewalecv/#systems">systems</a>
+      <a href="https://ayekarinfotech.github.io/AtharvaYewalecv/#log">log</a>
+      <a href="https://ayekarinfotech.github.io/AtharvaYewalecv/#education">education</a>
+      <a href="https://ayekarinfotech.github.io/AtharvaYewalecv/#journey">journey</a>
+      <a href="https://ayekarinfotech.github.io/AtharvaYewalecv/#connect">connect</a>
+    </div>
+    <button id="cmdkTrigger" class="cmdk-trigger mono" type="button" aria-label="Open command palette">⌘K</button>
+  </div>
+</nav>
+
+<header class="hero wrap">
+  <div class="hero-grid">
+    <div class="term">
+      <div class="term-bar">
+        <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+        <span class="term-title">identity.log — bash — 80×24</span>
+      </div>
+      <div class="term-body">
+        <div class="term-line"><span class="prompt">Atharva@ayekar</span>:~$ cat identity.log</div>
+        <p class="term-out" id="typed-name">Atharva Jalindar Yewale<span class="cursor"></span></p>
+        <div class="term-out mono" style="color:var(--muted); font-size:14.5px;">Founder &amp; CEO, Ayekar Infotech · Building GoVerifAI &amp; KaakaPOS · Ethical Hacker (CEH · CRTP)</div>
+        <div class="hero-tags">
+          <span class="tag">📍 thane west, Maharashtra, India</span>
+          <span class="tag">💻 Full-Stack + AI-Assisted Dev</span>
+          <span class="tag">🔐 Offensive Security</span>
+          <span class="tag">🚀 Solo Founder</span>
+        </div>
+        <div id="termLog" class="term-log" aria-live="polite"><div class="tl-line tl-sys">[SYSTEM] interactive mode ready — try <span class="k">whoami</span>, <span class="k">skills</span>, or <span class="k">help</span></div></div>
+        <div class="term-line term-prompt-row">
+          <span class="prompt">Atharva@ayekar</span><span class="term-static">:~$</span>
+          <input id="termInput" class="term-input mono" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="type &#39;help&#39;" aria-label="Interactive terminal command input">
+        </div>
+      </div>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="mailto:atharvyewale102@gmail.com">✉ Get in touch</a>
+        <a class="btn btn-ghost" href="https://github.com/drhackbank" target="_blank" rel="noopener">↗ GitHub / drhackbank</a>
+        <a class="btn btn-ghost" href="https://github.com/ayekarinfotech" target="_blank" rel="noopener">↗ GitHub / ayekarinfotech</a>
+        <a class="btn btn-ghost" href="https://ayekarinfotech.github.io/AtharvaYewalecv/ATHARVA_JALINDAR_YEWALE_Resume_.pdf" target="_blank" rel="noopener">⬇ Résumé (PDF)</a>
+      </div>
+    </div>
+
+    <div class="portrait-stage">
+      <div class="portrait-card" id="portraitCard" style="transform: rotateX(0deg) rotateY(0deg);">
+        <div class="ring"></div>
+        <div class="inner">
+         <img src="profile.jpeg" width="900" height="900" alt="Portrait of Atharva Jalindar Yewale">
+        <div class="float-badge badge-1"><span class="dotpulse"></span> CEH · CRTP</div>
+        <div class="float-badge badge-2"><span class="dotpulse"></span> Founder &amp; CEO</div>
+        <div class="float-badge badge-3"><span class="dotpulse"></span> thane west, IN</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="impact wrap reveal">
+  <div class="impact-grid">
+    <div class="impact-item"><div class="impact-num" data-count="2">0</div><div class="impact-label">Active Ventures</div></div>
+    <div class="impact-item"><div class="impact-num" data-count="6">0</div><div class="impact-label">Certifications</div></div>
+    <div class="impact-item"><div class="impact-num" data-count="4">0</div><div class="impact-label">Roles Held</div></div>
+    <div class="impact-item"><div class="impact-num" data-count="3">0</div><div class="impact-label">Languages Spoken</div></div>
+  </div>
+</div>
+
+<main>
+<section id="about">
+  <div class="wrap reveal">
+    <div class="eyebrow">whoami</div>
+    <h2 class="title">The short version</h2>
+    <div class="about-grid">
+      <div>
+        <p><strong>Web developer and cybersecurity specialist</strong> with hands-on experience building applications and running ethical security assessments. I founded <strong>Ayekar Infotech</strong> to deliver full-stack development and security work for clients across industries, and I split my time between shipping product and breaking things on purpose — legally.</p>
+        <p>Outside client work, I'm building two ventures of my own: <strong>GoVerifAI</strong>, an AI-powered document fraud detection platform for Indian government, banking, and public-sector use cases, and <strong>KaakaPOS</strong>, a POS and machine-integration platform for international card acceptance with crypto settlement.</p>
+        <p>I've also worked under contract with a forensic cyber-crime unit, tracing and gathering digital evidence against cybercriminals — work that keeps my offensive-security skills grounded in something more consequential than a lab environment.</p>
+      </div>
+      <div>
+        <div class="stat-card"><div class="k">Base</div><div class="v">thane west, India</div></div>
+        <div class="stat-card"><div class="k">Focus</div><div class="v">Web Dev · AppSec · AI Products</div></div>
+        <div class="stat-card"><div class="k">Certifications</div><div class="v">CEH · CRTP</div></div>
+        <div class="stat-card"><div class="k">Languages</div><div class="v">English · Hindi · Marathi</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ventures">
+  <div class="wrap reveal">
+    <div class="eyebrow">ventures</div>
+    <h2 class="title">What I'm building</h2>
+    <div class="venture-grid">
+      <div class="tilt"><div class="vcard">
+        <span class="status live">Operating</span>
+        <h3>Ayekar Infotech</h3>
+        <p>Freelance-born IT services studio — web development, security audits, and technical consulting delivered end-to-end for clients across industries.</p>
+        <div class="stack"><span class="chip">Web Dev</span><span class="chip">Pentesting</span><span class="chip">Consulting</span></div>
+      </div></div>
+      <div class="tilt"><div class="vcard">
+        <span class="status build">In development</span>
+        <h3>GoVerifAI</h3>
+        <p>AI-powered document fraud detection built for Indian documents, targeting government, banking, and public-sector verification workflows.</p>
+        <div class="stack"><span class="chip">AI/ML</span><span class="chip">Document Forensics</span><span class="chip">GovTech</span></div>
+      </div></div>
+      <div class="tilt"><div class="vcard">
+        <span class="status build">In development</span>
+        <h3>KaakaPOS</h3>
+        <p>A POS and machine-integration platform for international card acceptance (Visa, Mastercard, Amex, JCB, Discover, UnionPay) with crypto settlement.</p>
+        <div class="stack"><span class="chip">Payments</span><span class="chip">Node.js</span><span class="chip">Crypto Settlement</span></div>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section id="arsenal">
+  <div class="wrap reveal">
+    <div class="eyebrow">arsenal</div>
+    <h2 class="title">Core competencies</h2>
+    <div class="arsenal">
+      <div class="arsenal-col">
+        <div class="h">Web Development</div>
+        <ul>
+          <li>HTML5 &amp; CSS3 <span class="meter" style="--w:92%"><span></span></span></li>
+          <li>PHP (Backend) <span class="meter" style="--w:80%"><span></span></span></li>
+          <li>Python (Scripting) <span class="meter" style="--w:78%"><span></span></span></li>
+          <li>AI-Assisted Development <span class="meter" style="--w:88%"><span></span></span></li>
+        </ul>
+      </div>
+      <div class="arsenal-col">
+        <div class="h">Cybersecurity</div>
+        <ul>
+          <li>Certified Ethical Hacking <span class="meter" style="--w:90%"><span></span></span></li>
+          <li>Metasploit Framework <span class="meter" style="--w:85%"><span></span></span></li>
+          <li>Red Team Ops (CRTP) <span class="meter" style="--w:87%"><span></span></span></li>
+          <li>Bug Bounty Hunting <span class="meter" style="--w:75%"><span></span></span></li>
+          <li>Malware Analysis <span class="meter" style="--w:80%"><span></span></span></li>
+          <li>Penetration Testing <span class="meter" style="--w:88%"><span></span></span></li>
+        </ul>
+      </div>
+      <div class="arsenal-col">
+        <div class="h">Tools &amp; Other</div>
+        <ul>
+          <li>MS-CIT Certified <span class="meter" style="--w:81%"><span></span></span></li>
+          <li>Cyber Forensics <span class="meter" style="--w:78%"><span></span></span></li>
+          <li>Project Management <span class="meter" style="--w:83%"><span></span></span></li>
+          <li>Client Management <span class="meter" style="--w:85%"><span></span></span></li>
+          <li>Crime Investigation <span class="meter" style="--w:76%"><span></span></span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="systems">
+  <div class="wrap reveal">
+    <div class="eyebrow">space experience</div>
+    <h2 class="title">Beyond the code</h2>
+
+    <div class="space-scene">
+      <canvas id="spaceStars" width="792" height="460"></canvas>
+      <div class="sun-glow"></div>
+      <div class="nebula nebula-a"></div>
+      <div class="nebula nebula-b"></div>
+      <div class="nebula nebula-c"></div>
+      <div class="planet moon-body"></div>
+      <div class="planet earth-body"></div>
+      <div class="shooting-star ss-1"></div>
+      <div class="shooting-star ss-2"></div>
+
+      <div class="astro-wrap" id="astroWrap">
+        <div class="astro-inner">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="100%" height="100%">
+            <defs>
+              <lineargradient id="astroGrad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#2FD1C4"></stop>
+                <stop offset="1" stop-color="#3E7BFA"></stop>
+              </lineargradient>
+            </defs>
+            <rect x="18" y="24" width="12" height="14" rx="3" fill="#131B2E" stroke="url(#astroGrad)" stroke-width="1.4"></rect>
+            <path d="M15 26c0-3 4-5 9-5s9 2 9 5v10c0 4-4 7-9 7s-9-3-9-7V26z" fill="#0F1524" stroke="url(#astroGrad)" stroke-width="1.6"></path>
+            <path d="M15 28c-3 1-5 4-5 7" stroke="url(#astroGrad)" stroke-width="1.6" stroke-linecap="round"></path>
+            <path d="M33 28c3 1 5 4 5 7" stroke="url(#astroGrad)" stroke-width="1.6" stroke-linecap="round"></path>
+            <circle cx="24" cy="16" r="10" fill="#0B0F17" stroke="url(#astroGrad)" stroke-width="1.6"></circle>
+            <ellipse cx="24" cy="16" rx="6.5" ry="6" fill="url(#astroGrad)" opacity="0.85"></ellipse>
+            <ellipse cx="21.5" cy="13.5" rx="2" ry="1.4" fill="#ffffff" opacity="0.55"></ellipse>
+          </svg>
+        </div>
+      </div>
+
+      <div class="space-copy">
+        <div class="eyebrow">transmission</div>
+        <h3>Grounded in code, curious about orbit</h3>
+        <p>Between shipping products and breaking systems on purpose, there's a standing fascination with what's beyond both — space tech, exploration, and where AI and hardware meet it next.</p>
+      </div>
+    </div>
+
+    <div class="sys-stats">
+      <div class="sys-item">
+        <span class="dotpulse"></span>
+        <div><div class="sys-k">Status</div><div class="sys-v">Operational — open to new engagements</div></div>
+      </div>
+      <div class="sys-item">
+        <span class="dotpulse"></span>
+        <div><div class="sys-k">Response window</div><div class="sys-v">Under 24 hours, client &amp; collaborator inquiries</div></div>
+      </div>
+      <div class="sys-item">
+        <span class="dotpulse"></span>
+        <div><div class="sys-k">Security posture</div><div class="sys-v">Offensive-first — self-audited, CEH/CRTP practices applied</div></div>
+      </div>
+      <div class="sys-item">
+        <span class="dotpulse"></span>
+        <div><div class="sys-k">In orbit right now</div><div class="sys-v">GoVerifAI · KaakaPOS · Ayekar client work</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="log">
+  <div class="wrap reveal">
+    <div class="eyebrow">git log --author=Atharva</div>
+    <h2 class="title">Experience</h2>
+    <div class="log">
+
+      <div class="commit current">
+        <div class="commit-head">
+          <h3>Founder &amp; CEO</h3>
+          <span class="commit-branch">Ayekar Infotech</span>
+        </div>
+        <div class="role-meta">Dec 2024 — Present · Freelancing Startup</div>
+        <ul>
+          <li>Founded and lead a freelancing technology startup specializing in web development, cybersecurity services, and AI-integrated digital solutions.</li>
+          <li>Deliver end-to-end web application development, security audits, and technical consulting across industries.</li>
+          <li>Manage client relationships, project scoping, delivery timelines, and QA across concurrent engagements.</li>
+        </ul>
+      </div>
+
+      <div class="commit">
+        <div class="commit-head">
+          <h3>Ethical Hacker — Contract Specialist</h3>
+          <span class="commit-branch">Intelligent Beuro, Forensic Dept.</span>
+        </div>
+        <div class="role-meta">Apr 2024 — Feb 2025</div>
+        <ul>
+          <li>Engaged under formal contract to support law enforcement with cyber crime case investigations.</li>
+          <li>Conducted ethical hacking operations to identify, trace, and gather digital evidence against cybercriminals.</li>
+          <li>Applied penetration testing and digital forensics methodologies to assist active cyber crime cases.</li>
+          <li>Maintained strict confidentiality and legal compliance throughout all investigative engagements.</li>
+        </ul>
+      </div>
+
+      <div class="commit">
+        <div class="commit-head">
+          <h3>Co-Founder</h3>
+          <span class="commit-branch">HotDate — dating platform</span>
+        </div>
+        <div class="role-meta">Jan 2025 · Closed</div>
+        <ul>
+          <li>Co-founded and developed a full-stack dating web application; owned the development lifecycle from concept to launch.</li>
+          <li>Gained experience in product management, UI/UX, and scaling consumer web platforms.</li>
+        </ul>
+      </div>
+
+      <div class="commit">
+        <div class="commit-head">
+          <h3>Project Manager</h3>
+          <span class="commit-branch">Sahyadri Farms Producer Co. Ltd.</span>
+        </div>
+        <div class="role-meta">Jan 2023 — Dec 2023</div>
+        <ul>
+          <li>Led project planning, execution, and delivery for an agricultural producer company's digital and operational initiatives.</li>
+          <li>Coordinated cross-functional teams to meet milestones, budgets, and stakeholder expectations.</li>
+          <li>Implemented process improvements that raised operational efficiency and delivery speed.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap reveal">
+    <div class="eyebrow">education &amp; certifications</div>
+    <h2 class="title">Record</h2>
+    <div class="edu-grid">
+      <div>
+        <h3>Academic</h3>
+        <div class="row"><span class="name">Secondary School Certificate (10th)</span><span class="meta">Mar 2018 · 80%</span></div>
+        <div class="row"><span class="name">Higher Secondary Certificate (12th, PCMB)</span><span class="meta">Feb 2020 · 57.23%</span></div>
+        <div class="langs">
+          <div class="lg"><div class="name">English</div><div class="meta">Professional</div></div>
+          <div class="lg"><div class="name">Hindi</div><div class="meta">Native</div></div>
+          <div class="lg"><div class="name">Marathi</div><div class="meta">Native</div></div>
+        </div>
+      </div>
+      <div>
+        <h3>Professional Certifications</h3>
+        <div class="row"><span class="name">MS-CIT (Microsoft Certification in IT)</span><span class="meta">Jun 2018 · 81%</span></div>
+        <div class="row"><span class="name">Cyber Security Professional Course (2 ECTS)</span><span class="meta">Jul 2021</span></div>
+        <div class="row"><span class="name">Certified Red Team Professional (CRTP)</span><span class="meta">Jan 2021</span></div>
+        <div class="row"><span class="name">Certified Ethical Hacker (CEH)</span><span class="meta">Jan 2022</span></div>
+        <div class="row"><span class="name">Bug Bounty Hunter &amp; Program</span><span class="meta">Ongoing</span></div>
+        <div class="row"><span class="name">Website &amp; App Developer with AI Adoption</span><span class="meta">Certified</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="journey">
+  <div class="wrap reveal">
+    <div class="eyebrow">journey</div>
+    <h2 class="title">Beginning to now</h2>
+    <div class="journey-stage">
+      <div class="jline">
+
+        <div class="jitem">
+          <div class="jnode"></div>
+          <div class="jcard">
+            <div class="jyear-row">
+              <span class="jicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 8l10 5 10-5-10-5Z"></path><path d="M6 10.5V15c0 1.5 3 3 6 3s6-1.5 6-3v-4.5"></path></svg></span>
+              <div class="jyear">MAR 2018</div>
+            </div>
+            <h3>Secondary School Certificate</h3>
+            <p>Completed 10th (SSC) with 80% — the starting point.</p>
+          </div>
+        </div>
+
+        <div class="jitem">
+          <div class="jnode"></div>
+          <div class="jcard">
+            <div class="jyear-row">
+              <span class="jicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 8l10 5 10-5-10-5Z"></path><path d="M6 10.5V15c0 1.5 3 3 6 3s6-1.5 6-3v-4.5"></path></svg></span>
+              <div class="jyear">FEB 2020</div>
+            </div>
+            <h3>Higher Secondary Certificate</h3>
+            <p>Completed 12th Science (PCMB), building toward tech and security.</p>
+          </div>
+        </div>
+
+        <div class="jitem">
+          <div class="jnode"></div>
+          <div class="jcard">
+            <div class="jyear-row">
+              <span class="jicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5.5c0 4.6-3.2 6.9-7 8.5-3.8-1.6-7-3.9-7-8.5V6l7-3Z"></path></svg></span>
+              <div class="jyear">JUL 2021 — JAN 2022</div>
+            </div>
+            <h3>First security certifications</h3>
+            <p>Cyber Security Professional Course, Certified Red Team Professional (CRTP), then Certified Ethical Hacker (CEH).</p>
+          </div>
+        </div>
+
+        <div class="jitem">
+          <div class="jnode"></div>
+          <div class="jcard">
+            <div class="jyear-row">
+              <span class="jicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7.5" width="18" height="11.5" rx="2"></rect><path d="M8 7.5V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1.5"></path></svg></span>
+              <div class="jyear">JAN — DEC 2023</div>
+            </div>
+            <h3>Project Manager, Sahyadri Farms</h3>
+            <p>First real leadership role — planning and delivery for an agri-producer company's digital initiatives.</p>
+          </div>
+        </div>
+
+        <div class="jitem milestone">
+          <div class="jnode"></div>
+          <div class="jcard">
+            <div class="jyear-row">
+              <span class="jicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="15" rx="2"></rect><path d="M7.5 9.5 10.5 12l-3 2.5M13 14.5h4"></path></svg></span>
+              <div class="jyear">APR 2024</div>
+            </div>
+            <h3>Ethical Hacker, Forensic Dept.</h3>
+            <p>Contract specialist tracing digital evidence for active cyber crime cases with Intelligent Beuro.</p>
+          </div>
+        </div>
+
+        <div class="jitem milestone">
+          <div class="jnode"></div>
+          <div class="jcard">
+            <div class="jyear-row">
+              <span class="jicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5c3 2 5 6.2 5 10.3 0 2.1-.9 4-2 5.1l-.7 3-2.3-2.1-2.3 2.1-.7-3c-1.1-1.1-2-3-2-5.1 0-4.1 2-8.3 5-10.3Z"></path><circle cx="12" cy="10.5" r="1.6"></circle></svg></span>
+              <div class="jyear">DEC 2024</div>
+            </div>
+            <h3>Founded Ayekar Infotech</h3>
+            <p>Took the leap — full-stack development and security services, under my own name.</p>
+          </div>
+        </div>
+
+        <div class="jitem">
+          <div class="jnode"></div>
+          <div class="jcard">
+            <div class="jyear-row">
+              <span class="jicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 6 2.5 12l6 6M15.5 6l6 6-6 6"></path></svg></span>
+              <div class="jyear">JAN 2025</div>
+            </div>
+            <h3>Co-founded HotDate</h3>
+            <p>A consumer web platform built end-to-end — shipped, learned, closed.</p>
+          </div>
+        </div>
+
+        <div class="jitem milestone">
+          <div class="jnode"></div>
+          <div class="jcard">
+            <div class="jyear-row">
+              <span class="jicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2.6"></circle><path d="M4.5 12a7.5 7.5 0 0 1 15 0"></path><path d="M2.5 12h2M19.5 12h2"></path></svg></span>
+              <div class="jyear">2025 — NOW</div>
+            </div>
+            <h3>Building GoVerifAI &amp; KaakaPOS</h3>
+            <p>AI-powered document fraud detection and a global POS payments platform — both in active development today.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="connect">
+  <div class="wrap reveal">
+    <div class="eyebrow">connect</div>
+    <h2 class="title">Reach out</h2>
+    <div class="connect-grid">
+      <a class="cbox" href="mailto:atharvyewale102@gmail.com"><div class="k">Email</div><div class="v">atharvyewale102@GMAIL.com</div></a>
+      <a class="cbox" href="tel:+919325324711"><div class="k">Phone</div><div class="v">+91 9325324711</div></a>
+      <a class="cbox" href="https://www.linkedin.com/in/iamAtharvaYewalecv" target="_blank" rel="noopener"><div class="k">LinkedIn</div><div class="v">@iamAtharvaYewalecv</div></a>
+      <a class="cbox" href="https://github.com/ayekarinfotech" target="_blank" rel="noopener"><div class="k">GitHub</div><div class="v">ayekarinfotech</div></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <img class="foot-logo" src="logo.png" width="320" height="80" alt="Ayekar Infotech">
+    <p><span class="flag">&gt;_</span> Authorized testing only. Always operate within scope and the law. — built &amp; maintained by Atharva Jalindar Yewale</p>
+  </div>
+</footer>    <p class="copyline">© 2026 Atharva Jalindar Yewale / Ayekar Infotech Pvt Ltd. All rights reserved.</p>
+  </div>
+</footer>
+
+<div id="cmdk" class="cmdk-overlay" hidden="">
+  <div class="cmdk-box" role="dialog" aria-label="Command palette">
+    <div class="cmdk-input-row">
+      <span class="cmdk-prompt mono">/</span>
+      <input id="cmdkInput" class="cmdk-input mono" type="text" placeholder="Jump to a section… (whoami, ventures, arsenal, systems, log, education, journey, connect)" autocomplete="off" autocapitalize="off" spellcheck="false">
+      <span class="cmdk-esc mono">esc</span>
+    </div>
+    <div id="cmdkList" class="cmdk-list"></div>
+  </div>
+</div>
+
+<script>
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var isCoarse = window.matchMedia('(pointer: coarse)').matches;
+
+  // Terminal typing effect for the name line
+  (function(){
+    var el = document.getElementById('typed-name');
+    var text = "Atharva Jalindar Yewale";
+    if(reduced){ el.textContent = text; window.__bootDone = true; return; }
+    var i = 0;
+    function tick(){
+      if(i <= text.length){
+        el.innerHTML = text.slice(0,i) + '<span class="cursor"></span>';
+        i++;
+        setTimeout(tick, 55);
+      } else {
+        el.innerHTML = text + '<span class="cursor"></span>';
+        window.__bootDone = true;
+        document.dispatchEvent(new Event('bootdone'));
+      }
+    }
+    tick();
+  })();
+
+  // Interactive hero terminal — type real commands, get real answers
+  (function(){
+    var input = document.getElementById('termInput');
+    var log = document.getElementById('termLog');
+    if(!input || !log) return;
+
+    var history = [];
+    var histPos = -1;
+
+    function kv(pairs){
+      return pairs.map(function(p){
+        return '<span class="k">' + p[0] + '</span>' + ' '.repeat(Math.max(1, 13 - p[0].length)) + '<span class="v">' + p[1] + '</span>';
+      }).join('\n');
+    }
+
+    var commands = {
+      help: {html:true, run: function(){
+        return kv([
+          ['whoami','who I am'],
+          ['skills','core competencies'],
+          ['ventures','what I\'m building'],
+          ['experience','recent roles'],
+          ['education','academics & certs'],
+          ['contact','how to reach me'],
+          ['resume','open the PDF résumé'],
+          ['github','open GitHub profiles'],
+          ['goto <sec>','jump to a section — e.g. goto journey'],
+          ['clear','clear this log']
+        ]);
+      }},
+      whoami: {html:true, run: function(){
+        return kv([
+          ['name','Atharva Jalindar Yewale'],
+          ['role','Founder & CEO, Ayekar Infotech'],
+          ['focus','Web dev + cybersecurity (CEH, CRTP)'],
+          ['base','thane west, India']
+        ]);
+      }},
+      skills: {html:true, run: function(){
+        return kv([
+          ['web','HTML5, CSS3, PHP, Python, AI-assisted dev'],
+          ['security','CEH, Metasploit, CRTP, bug bounty, pentesting'],
+          ['other','cyber forensics, project & client management']
+        ]);
+      }},
+      ventures: {html:true, run: function(){
+        return kv([
+          ['Ayekar Infotech','operating — web dev, security audits, consulting'],
+          ['GoVerifAI','in development — AI document fraud detection'],
+          ['KaakaPOS','in development — global POS + crypto settlement']
+        ]);
+      }},
+      experience: {html:true, run: function(){
+        return kv([
+          ['Founder & CEO','Ayekar Infotech · Dec 2024–present'],
+          ['Ethical Hacker','Intelligent Beuro Forensic Dept. · Apr 2024–Feb 2025'],
+          ['Co-Founder','HotDate · Jan 2025, closed'],
+          ['Project Manager','Sahyadri Farms · Jan–Dec 2023']
+        ]) + '\n\ntype \'goto log\' for full details.';
+      }},
+      education: {html:true, run: function(){
+        return kv([
+          ['SSC','Mar 2018 — 80%'],
+          ['HSC (PCMB)','Feb 2020 — 57.23%'],
+          ['MS-CIT','Jun 2018 — 81%'],
+          ['CRTP','Jan 2021'],
+          ['CEH','Jan 2022']
+        ]) + '\n\ntype \'goto education\' for the full list.';
+      }},
+      contact: {html:true, run: function(){
+        return kv([
+          ['email','atharvyewale102@gmail.com'],
+          ['phone','+91 9325324711'],
+          ['linkedin','@iamAtharvaYewalecv'],
+          ['github','atharvaayewale']
+        ]);
+      }},
+      resume: {html:false, run: function(){
+        window.open('ATHARVA_JALINDAR_YEWALE_Resume_.pdf', '_blank');
+        return "Opening résumé (PDF)...";
+      }},
+      github: {html:false, run: function(){
+        window.open('https://github.com/drhackbank', '_blank');
+        return "Opening github.com/drhackbank...";
+      }},
+      sudo: {html:false, run: function(){
+        return "Nice try. This account has exactly one privileged user, and he's typing this from thane west.";
+      }},
+      ls: {html:false, run: function(){
+        return "whoami.log  skills.txt  ventures/  experience.log  education.log  connect.sh";
+      }},
+      clear: {html:false, run: function(){
+        log.innerHTML = '';
+        return null;
+      }}
+    };
+
+    var sectionAliases = {
+      about:'about', whoami:'about', ventures:'ventures', arsenal:'arsenal', skills:'arsenal',
+      systems:'systems', space:'systems', log:'log', experience:'log',
+      education:'education', journey:'journey', connect:'connect', contact:'connect'
+    };
+
+    function printLine(cls, text){
+      var d = document.createElement('div');
+      d.className = 'tl-line ' + cls;
+      d.textContent = text;
+      log.appendChild(d);
+    }
+    function printHTML(cls, html){
+      var d = document.createElement('div');
+      d.className = 'tl-line ' + cls;
+      d.innerHTML = html;
+      log.appendChild(d);
+    }
+    function printCmd(cmd){
+      var d = document.createElement('div');
+      d.className = 'tl-line tl-cmd';
+      d.innerHTML = '<span class="prompt">Atharva@ayekar</span>:~$ ' + cmd.replace(/</g,'&lt;');
+      log.appendChild(d);
+    }
+
+    function run(raw){
+      var cmd = raw.trim();
+      if(!cmd) return;
+      printCmd(cmd);
+      history.push(cmd);
+      histPos = history.length;
+
+      var parts = cmd.toLowerCase().split(/\s+/);
+      var name = parts[0];
+
+      if(name === 'goto' && parts[1]){
+        var target = sectionAliases[parts[1]];
+        if(target){
+          printLine('tl-out', 'Jumping to #' + target + '...');
+          var el = document.getElementById(target);
+          if(el) el.scrollIntoView({behavior: reduced ? 'auto' : 'smooth'});
+        } else {
+          printLine('tl-err', 'No such section: ' + parts[1]);
+        }
+      } else if(commands[name]){
+        var out = commands[name].run();
+        if(out){
+          if(commands[name].html) printHTML('tl-out', out);
+          else printLine('tl-out', out);
+        }
+      } else {
+        printLine('tl-err', 'command not found: ' + name + ' — type "help"');
+      }
+      log.scrollTop = log.scrollHeight;
+    }
+
+    input.addEventListener('keydown', function(e){
+      if(e.key === 'Enter'){
+        run(input.value);
+        input.value = '';
+      } else if(e.key === 'ArrowUp'){
+        if(histPos > 0){ histPos--; input.value = history[histPos]; }
+        e.preventDefault();
+      } else if(e.key === 'ArrowDown'){
+        if(histPos < history.length - 1){ histPos++; input.value = history[histPos]; }
+        else { histPos = history.length; input.value = ''; }
+        e.preventDefault();
+      }
+    });
+
+    function showHint(){
+      printHTML('tl-sys', '[SYSTEM] interactive mode ready — try <span class="k">whoami</span>, <span class="k">skills</span>, or <span class="k">help</span>');
+    }
+    if(window.__bootDone){ showHint(); }
+    else{ document.addEventListener('bootdone', showHint, {once:true}); }
+  })();
+
+  // Command palette (Ctrl/Cmd+K, or the ⌘K button)
+  (function(){
+    var overlay = document.getElementById('cmdk');
+    var box = overlay ? overlay.querySelector('.cmdk-box') : null;
+    var input = document.getElementById('cmdkInput');
+    var list = document.getElementById('cmdkList');
+    var trigger = document.getElementById('cmdkTrigger');
+    if(!overlay || !input || !list) return;
+
+    var items = [
+      {id:'about', label:'whoami', desc:'About & summary', glyph:'ID'},
+      {id:'ventures', label:'ventures', desc:'Ayekar Infotech, GoVerifAI, KaakaPOS', glyph:'▣'},
+      {id:'arsenal', label:'arsenal', desc:'Core competencies', glyph:'⚙'},
+      {id:'systems', label:'systems', desc:'Space experience', glyph:'◎'},
+      {id:'log', label:'log', desc:'Experience', glyph:'▹'},
+      {id:'education', label:'education', desc:'Academics & certifications', glyph:'▤'},
+      {id:'journey', label:'journey', desc:'Beginning to now', glyph:'↝'},
+      {id:'connect', label:'connect', desc:'Contact details', glyph:'@'}
+    ];
+    var active = 0;
+
+    function render(filter){
+      var f = (filter || '').toLowerCase().trim();
+      var filtered = items.filter(function(it){
+        return !f || it.label.indexOf(f) > -1 || it.desc.toLowerCase().indexOf(f) > -1;
+      });
+      list.innerHTML = '';
+      if(filtered.length === 0){
+        var e = document.createElement('div');
+        e.className = 'cmdk-empty';
+        e.textContent = 'No matching section.';
+        list.appendChild(e);
+        return;
+      }
+      active = Math.min(active, filtered.length - 1);
+      filtered.forEach(function(it, i){
+        var d = document.createElement('div');
+        d.className = 'cmdk-item' + (i === active ? ' active' : '');
+        d.innerHTML = '<span class="glyph">' + it.glyph + '</span><span class="txt"><span>' + it.label + '</span><span class="desc">' + it.desc + '</span></span>';
+        d.addEventListener('mouseenter', function(){ active = i; render(input.value); });
+        d.addEventListener('click', function(){ jump(it.id); });
+        list.appendChild(d);
+      });
+      list._filtered = filtered;
+    }
+
+    function jump(id){
+      close();
+      var el = document.getElementById(id);
+      if(el) el.scrollIntoView({behavior: reduced ? 'auto' : 'smooth'});
+    }
+
+    function open(){
+      overlay.hidden = false;
+      requestAnimationFrame(function(){ overlay.classList.add('show'); });
+      input.value = '';
+      active = 0;
+      render('');
+      setTimeout(function(){ input.focus(); }, 10);
+    }
+    function close(){
+      overlay.classList.remove('show');
+      setTimeout(function(){ overlay.hidden = true; }, reduced ? 0 : 160);
+    }
+
+    if(trigger) trigger.addEventListener('click', open);
+    overlay.addEventListener('click', function(e){ if(e.target === overlay) close(); });
+
+    input.addEventListener('input', function(){ active = 0; render(input.value); });
+    input.addEventListener('keydown', function(e){
+      var filtered = list._filtered || [];
+      if(e.key === 'ArrowDown'){ active = Math.min(active + 1, filtered.length - 1); render(input.value); e.preventDefault(); }
+      else if(e.key === 'ArrowUp'){ active = Math.max(active - 1, 0); render(input.value); e.preventDefault(); }
+      else if(e.key === 'Enter'){ if(filtered[active]) jump(filtered[active].id); }
+      else if(e.key === 'Escape'){ close(); }
+    });
+
+    document.addEventListener('keydown', function(e){
+      var mod = e.metaKey || e.ctrlKey;
+      if(mod && (e.key === 'k' || e.key === 'K')){ e.preventDefault(); overlay.hidden ? open() : close(); }
+      else if(e.key === 'Escape' && !overlay.hidden){ close(); }
+    });
+  })();
+
+  // Scroll reveal
+  (function(){
+    var items = document.querySelectorAll('.reveal');
+    if(!('IntersectionObserver' in window)){
+      items.forEach(function(el){ el.classList.add('in'); });
+      return;
+    }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, {threshold:0.12});
+    items.forEach(function(el){ io.observe(el); });
+  })();
+
+  // Skill meter fill on scroll
+  (function(){
+    var cols = document.querySelectorAll('.arsenal-col');
+    if(!('IntersectionObserver' in window)){
+      cols.forEach(function(el){ el.classList.add('in'); });
+      return;
+    }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, {threshold:0.3});
+    cols.forEach(function(el){ io.observe(el); });
+  })();
+
+  // Journey timeline: 3D pop-in on scroll
+  (function(){
+    var items = document.querySelectorAll('.jitem');
+    if(!('IntersectionObserver' in window)){
+      items.forEach(function(el){ el.classList.add('in'); });
+      return;
+    }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, {threshold:0.25});
+    items.forEach(function(el){ io.observe(el); });
+  })();
+
+  // Impact counters count-up
+  (function(){
+    var nums = document.querySelectorAll('.impact-num');
+    function run(el){
+      var target = parseInt(el.getAttribute('data-count'), 10);
+      if(reduced){ el.textContent = target; return; }
+      var cur = 0, steps = 30, i = 0;
+      var iv = setInterval(function(){
+        i++;
+        cur = Math.round((target/steps) * i);
+        el.textContent = Math.min(cur, target);
+        if(i >= steps){ clearInterval(iv); el.textContent = target; }
+      }, 35);
+    }
+    if(!('IntersectionObserver' in window)){
+      nums.forEach(run);
+      return;
+    }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){ run(entry.target); io.unobserve(entry.target); }
+      });
+    }, {threshold:0.5});
+    nums.forEach(function(el){ io.observe(el); });
+  })();
+
+  // 3D tilt: portrait card + venture cards
+  (function(){
+    if(reduced || isCoarse) return;
+    function bindTilt(el, strength){
+      var rect;
+      el.addEventListener('mouseenter', function(){ rect = el.getBoundingClientRect(); });
+      el.addEventListener('mousemove', function(e){
+        if(!rect) rect = el.getBoundingClientRect();
+        var px = (e.clientX - rect.left) / rect.width;
+        var py = (e.clientY - rect.top) / rect.height;
+        var rx = (py - 0.5) * -strength;
+        var ry = (px - 0.5) * strength;
+        el.style.transform = 'rotateX(' + rx + 'deg) rotateY(' + ry + 'deg)';
+      });
+      el.addEventListener('mouseleave', function(){
+        el.style.transform = 'rotateX(0deg) rotateY(0deg)';
+      });
+    }
+    var portrait = document.getElementById('portraitCard');
+    if(portrait) bindTilt(portrait, 16);
+    document.querySelectorAll('.tilt .vcard').forEach(function(el){ bindTilt(el, 7); });
+
+    // Astronaut parallax within the space scene
+    var scene = document.querySelector('.space-scene');
+    var astro = document.getElementById('astroWrap');
+    if(scene && astro){
+      var srect;
+      scene.addEventListener('mouseenter', function(){ srect = scene.getBoundingClientRect(); });
+      scene.addEventListener('mousemove', function(e){
+        if(!srect) srect = scene.getBoundingClientRect();
+        var px = (e.clientX - srect.left) / srect.width - 0.5;
+        var py = (e.clientY - srect.top) / srect.height - 0.5;
+        astro.style.transform = 'translate(' + (px*22) + 'px,' + (py*18) + 'px)';
+      });
+      scene.addEventListener('mouseleave', function(){
+        astro.style.transform = 'translate(0,0)';
+      });
+    }
+  })();
+
+  // Global cursor spotlight
+  (function(){
+    if(reduced || isCoarse) return;
+    var root = document.documentElement;
+    window.addEventListener('mousemove', function(e){
+      root.style.setProperty('--mx', e.clientX + 'px');
+      root.style.setProperty('--my', e.clientY + 'px');
+    }, {passive:true});
+  })();
+
+  // Ambient particle network background
+  (function(){
+    var canvas = document.getElementById('netbg');
+    if(!canvas) return;
+    var ctx = canvas.getContext('2d');
+    var W, H, particles = [];
+    var COUNT = reduced ? 0 : (isCoarse ? 26 : 55);
+
+    function resize(){
+      W = canvas.width = window.innerWidth;
+      H = canvas.height = window.innerHeight;
+    }
+    resize();
+    window.addEventListener('resize', resize);
+
+    function rand(a,b){ return a + Math.random()*(b-a); }
+    for(var i=0;i<COUNT;i++){
+      particles.push({
+        x: rand(0,W), y: rand(0,H),
+        vx: rand(-0.18,0.18), vy: rand(-0.18,0.18),
+        r: rand(1,2.2)
+      });
+    }
+
+    function step(){
+      if(COUNT === 0) return;
+      ctx.clearRect(0,0,W,H);
+      for(var i=0;i<particles.length;i++){
+        var p = particles[i];
+        p.x += p.vx; p.y += p.vy;
+        if(p.x < 0 || p.x > W) p.vx *= -1;
+        if(p.y < 0 || p.y > H) p.vy *= -1;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI*2);
+        ctx.fillStyle = 'rgba(47,209,196,0.55)';
+        ctx.fill();
+      }
+      for(var i=0;i<particles.length;i++){
+        for(var j=i+1;j<particles.length;j++){
+          var a = particles[i], b = particles[j];
+          var dx = a.x-b.x, dy = a.y-b.y;
+          var dist = Math.sqrt(dx*dx+dy*dy);
+          if(dist < 130){
+            ctx.strokeStyle = 'rgba(62,123,250,' + (0.16 * (1 - dist/130)) + ')';
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.moveTo(a.x,a.y);
+            ctx.lineTo(b.x,b.y);
+            ctx.stroke();
+          }
+        }
+      }
+      requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  })();
+
+  // Site-wide galaxy starfield (fixed, visible across every section)
+  (function(){
+    var canvas = document.getElementById('galaxyStars');
+    if(!canvas) return;
+    var ctx = canvas.getContext('2d');
+    var W, H, stars = [];
+    var COUNT = reduced ? 0 : 110;
+
+    function rand(a,b){ return a + Math.random()*(b-a); }
+
+    function resize(){
+      W = canvas.width = window.innerWidth;
+      H = canvas.height = window.innerHeight;
+    }
+    resize();
+    window.addEventListener('resize', resize);
+
+    for(var i=0;i<COUNT;i++){
+      stars.push({
+        x: rand(0,1), y: rand(0,1),
+        r: rand(0.4,1.8),
+        phase: rand(0, Math.PI*2),
+        speed: rand(0.015,0.045)
+      });
+    }
+
+    var t = 0;
+    function step(){
+      if(COUNT === 0) return;
+      t += 1;
+      ctx.clearRect(0,0,W,H);
+      for(var i=0;i<stars.length;i++){
+        var s = stars[i];
+        var tw = 0.12 + 0.4 * (0.5 + 0.5*Math.sin(t*s.speed + s.phase));
+        ctx.beginPath();
+        ctx.arc(s.x*W, s.y*H, s.r, 0, Math.PI*2);
+        ctx.fillStyle = 'rgba(255,255,255,' + tw.toFixed(2) + ')';
+        ctx.fill();
+      }
+      requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  })();
+
+  // Dense twinkling starfield inside the space-experience scene
+  (function(){
+    var canvas = document.getElementById('spaceStars');
+    if(!canvas) return;
+    var ctx = canvas.getContext('2d');
+    var box = canvas.parentElement;
+    var W, H, stars = [];
+    var COUNT = reduced ? 0 : 130;
+
+    function rand(a,b){ return a + Math.random()*(b-a); }
+
+    function resize(){
+      var r = box.getBoundingClientRect();
+      W = canvas.width = r.width;
+      H = canvas.height = r.height;
+    }
+    resize();
+    window.addEventListener('resize', resize);
+
+    for(var i=0;i<COUNT;i++){
+      stars.push({
+        x: rand(0,1000)/1000, y: rand(0,1000)/1000,
+        r: rand(0.5,1.7),
+        phase: rand(0, Math.PI*2),
+        speed: rand(0.02,0.05)
+      });
+    }
+
+    var t = 0;
+    function step(){
+      if(COUNT === 0) return;
+      t += 1;
+      ctx.clearRect(0,0,W,H);
+      for(var i=0;i<stars.length;i++){
+        var s = stars[i];
+        var tw = 0.35 + 0.65 * (0.5 + 0.5*Math.sin(t*s.speed + s.phase));
+        ctx.beginPath();
+        ctx.arc(s.x*W, s.y*H, s.r, 0, Math.PI*2);
+        ctx.fillStyle = 'rgba(255,255,255,' + tw.toFixed(2) + ')';
+        ctx.fill();
+      }
+      requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  })();
+</script>
+
+
+
+</body></html>
